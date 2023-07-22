@@ -19,6 +19,9 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.link {
+	text-decoration: none;
+  }
 .web-studio-nav {
   color: #2e2f42;
 }
@@ -32,3 +35,4 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
