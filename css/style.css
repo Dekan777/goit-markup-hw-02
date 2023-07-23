@@ -57,3 +57,8 @@ body {
 .address-info:focus {
   color: #404bbf;
 }
+
+
+.filter {
+  background-color: #2e2f42;
+}
