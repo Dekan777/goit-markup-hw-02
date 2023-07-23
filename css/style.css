@@ -89,15 +89,10 @@ body {
   cursor: pointer;
 }
 
-
 .list-row1 {
   list-style: none;
-
-
-
 }
-
-.row1-card1 {
+.list-row1-h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -105,10 +100,9 @@ body {
   color: #2e2f42;
 }
 
-  .list-row1-p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-
-  }
+.list-row1-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
