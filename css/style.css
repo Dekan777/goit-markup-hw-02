@@ -86,4 +86,5 @@ body {
 .button-all:focus {
   color: #ffffff;
   background-color: #404bbf;
+  cursor: pointer;
 }
