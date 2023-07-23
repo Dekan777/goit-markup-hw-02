@@ -82,8 +82,8 @@ body {
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-.list-filter-button:hover,
-.list-filter-button:focus {
+.button-all:hover,
+.button-all:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
