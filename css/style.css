@@ -39,6 +39,8 @@ body {
 .nav-studio:focus {
   color: #404bbf;
 }
+
+/* Top Line adressa info  */
 .address {
   font-family: "Roboto";
   font-size: 16px;
@@ -58,7 +60,7 @@ body {
   color: #404bbf;
 }
 
-
-.filter {
+/* Section 1 Filter Button */
+.list-filter {
   background-color: #2e2f42;
 }
