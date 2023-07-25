@@ -11,7 +11,9 @@ body {
   --primary-list-color: #434455;
   --nav-list-color: #404bbf;
   --footer-color: #f4f4fd;
-  --section-color: #26262c;
+  --section-color: #2E2F42;
+  --primary-section-four: #F4F4FD;
+  --button-color: #404bbf;
 }
 /* header */
 /* Logo */
@@ -75,7 +77,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--primary-wite-colo);
+  color: var(--primary-wite-color);
 }
 
 .button-all {
@@ -85,12 +87,20 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-blue-color);
-  background-color: var(--primary-wite-colo);
+  background-color: var(--primary-wite-color);
 }
-.button-all:hover,
-.button-all:focus {
-  color: var(--primary-wite-colo);
-  background-color: var(--primary-blue-color);
+
+
+
+
+
+
+
+.button-all:focus,
+.button-all:hover {
+  
+  background-color: var(--button-color);
+  color: var(--primary-wite-color);
   cursor: pointer;
 }
 
@@ -137,7 +147,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--primary-wite-colo);
+  color: var(--primary-wite-color);
 }
 
 .button-section-one {
@@ -147,7 +157,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--primary-wite-colo);
+  color: var(--primary-wite-color);
   cursor: pointer;
 }
 
@@ -180,7 +190,7 @@ body {
 }
 
 .section-four {
-  background-color: var(--primary-dark-color);
+  background-color: var(--primary-section-four);
 }
 .section-four-h {
   font-size: 36px;
@@ -192,5 +202,5 @@ body {
 }
 
 .list-section-four {
-  background-color: var(--primary-wite-colo);
+  background-color: var(--primary-wite-color);
 }
