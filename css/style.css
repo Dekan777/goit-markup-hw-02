@@ -11,11 +11,11 @@ body {
   --primary-list-color: #434455;
   --nav-list-color: #404bbf;
   --footer-color: #f4f4fd;
-  --section-color: #2E2F42;
-  --primary-section-four: #F4F4FD;
+  --section-color: #2e2f42;
+  --primary-section-four: #f4f4fd;
   --button-color: #404bbf;
-  --button-section-one: #404BBF;
-  --button-section-one1: #404BBF;
+  --button-section-one: #404bbf;
+  --button-section-one1: #404bbf;
   --adres-info-color: #404bbf;
 }
 /* header */
@@ -66,7 +66,6 @@ body {
   color: var(--primary-list-color);
 }
 
-
 .address-info:hover,
 .address-info:focus {
   color: var(--adres-info-color);
@@ -95,15 +94,8 @@ body {
   background-color: var(--primary-wite-color);
 }
 
-
-
-
-
-
-
 .button-all:hover,
 .button-all:focus {
-  
   background-color: var(--button-color);
   color: var(--primary-wite-color);
   cursor: pointer;
@@ -169,8 +161,7 @@ body {
 .button-section-one:hover,
 .button-section-one:focus {
   background-color: var(--button-section-one);
-  color: var(--button-section-one1)
-
+  color: var(--button-section-one1);
 }
 
 .section-two {
