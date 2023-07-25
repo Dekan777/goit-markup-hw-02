@@ -98,8 +98,8 @@ body {
 
 
 
-.button-all:focus,
-.button-all:hover {
+.button-all:hover,
+.button-all:focus {
   
   background-color: var(--button-color);
   color: var(--primary-wite-color);
@@ -209,3 +209,8 @@ body {
   background-color: var(--primary-wite-color);
 }
 
+.address-info:hover,
+.address-info:focus {
+  color: #404bbf;
+  color: var(--primary-blue-color);
+}
