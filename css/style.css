@@ -16,6 +16,7 @@ body {
   --button-color: #404bbf;
   --button-section-one: #404BBF;
   --button-section-one1: #404BBF;
+  --adres-info-color: #404bbf;
 }
 /* header */
 /* Logo */
@@ -64,9 +65,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-list-color);
 }
+
+
 .address-info:hover,
 .address-info:focus {
-  color: var(--primary-blue-color);
+  color: var(--adres-info-color);
 }
 
 /* Section 1  */
