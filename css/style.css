@@ -1,22 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--primary-list-color);
-  background-color: var(--primary-wite-color);
+  color: #434455;
+  background-color: #ffffff;
 }
 
 :root {
-  --primary-blue-color: #4d5ae5;
-  --primary-wite-color: #ffffff;
-  --primary-dark-color: #2e2f42;
-  --primary-list-color: #434455;
-  --nav-list-color: #404bbf;
-  --footer-color: #f4f4fd;
-  --section-color: #2e2f42;
-  --primary-section-four: #f4f4fd;
-  --button-color: #404bbf;
-  --button-section-one: #404bbf;
-  --button-section-one1: #404bbf;
-  --adres-info-color: #404bbf;
+  --primary-font: "Poppins", sans-serif;
+  --title-font: "Oswald", sans-serif;
 }
 /* header */
 /* Logo */
@@ -27,13 +17,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-blue-color);
+  color: #4d5ae5;
 }
 .link {
   text-decoration: none;
 }
 .web-studio-nav {
-  color: var(--primary-dark-color);
+  color: #2e2f42;
 }
 .list {
   list-style: none;
@@ -43,11 +33,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-dark-color);
+  color: #2e2f42;
 }
 .nav-studio:hover,
 .nav-studio:focus {
-  color: var(--nav-list-color);
+  color: #404bbf;
 }
 
 /* Top Line adressa info  */
@@ -63,17 +53,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-list-color);
+  color: #434455;
 }
-
 .address-info:hover,
 .address-info:focus {
-  color: var(--adres-info-color);
+  color: #404bbf;
 }
 
 /* Section 1  */
 .filter {
-  background-color: var(--primary-dark-color);
+  background-color: #2e2f42;
 }
 
 .list-filter-h1 {
@@ -81,7 +70,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--primary-wite-color);
+  color: #ffffff;
 }
 
 .button-all {
@@ -90,14 +79,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--primary-blue-color);
-  background-color: var(--primary-wite-color);
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
-
 .button-all:hover,
 .button-all:focus {
-  background-color: var(--button-color);
-  color: var(--primary-wite-color);
+  color: #ffffff;
+  background-color: #404bbf;
   cursor: pointer;
 }
 
@@ -110,33 +98,33 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-dark-color);
+  color: #2e2f42;
 }
 
 .portfolio-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-list-color);
+  color: #434455;
 }
 
 /*  Footer  */
 .footer {
-  background-color: var(--primary-dark-color);
+  background-color: #2e2f42;
 }
 
 .color-logo-header {
-  color: var(--footer-color);
+  color: #f4f4fd;
 }
 
 .footer-poragrof {
   line-height: 1.5;
-  color: var(--footer-color);
+  color: #f4f4fd;
   letter-spacing: 0.02em;
 }
 
 .section-one {
-  background-color: var(--primary-dark-color);
+  background-color: #2e2f42;
 }
 
 .section-one-h {
@@ -144,24 +132,23 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--primary-wite-color);
+  color: #ffffff;
 }
 
 .button-section-one {
-  background-color: var(--primary-blue-color);
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--primary-wite-color);
+  color: #ffffff;
   cursor: pointer;
 }
 
 .button-section-one:hover,
 .button-section-one:focus {
-  background-color: var(--button-section-one);
-  color: var(--button-section-one1);
+  background-color: #404bbf;
 }
 
 .section-two {
@@ -169,13 +156,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--section-color);
+  color: #2e2f42;
 }
 .list-section-two-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-list-color);
+  color: #434455;
 }
 
 .section-three-h {
@@ -184,11 +171,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--primary-dark-color);
+  color: #2e2f42;
 }
 
 .section-four {
-  background-color: var(--primary-section-four);
+  background-color: #f4f4fd;
 }
 .section-four-h {
   font-size: 36px;
@@ -196,15 +183,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--primary-dark-color);
+  color: #2e2f42;
 }
 
 .list-section-four {
-  background-color: var(--primary-wite-color);
-}
-
-.address-info:hover,
-.address-info:focus {
-  color: #404bbf;
-  color: var(--primary-blue-color);
+  background-color: #ffffff;
 }
