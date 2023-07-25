@@ -204,3 +204,9 @@ body {
 .list-section-four {
   background-color: var(--primary-wite-color);
 }
+
+.link address-info:hover,
+.link address-info:focus {
+  color: #404bbf;
+}
+
