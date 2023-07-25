@@ -1,13 +1,19 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+:root {
+  --color-1: #4d5ae5;
+  --color-2: #2e2f42;
+  --color-3: #404bbf;
+  --color-4: #ffffff;
+  --color-5: #f4f4fd;
+  --color-6: #434455;
 }
 
-:root {
-  --primary-font: "Poppins", sans-serif;
-  --title-font: "Oswald", sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-6);
+  background-color: var(--color-4);
 }
+
+
 /* header */
 /* Logo */
 .nav-logo {
@@ -17,27 +23,32 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--color-1);
 }
+
 .link {
   text-decoration: none;
 }
+
 .web-studio-nav {
-  color: #2e2f42;
+  color: var(--color-2);
 }
+
 .list {
   list-style: none;
 }
+
 .nav-studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-2);
 }
+
 .nav-studio:hover,
 .nav-studio:focus {
-  color: #404bbf;
+  color: var(--color-3);
 }
 
 /* Top Line adressa info  */
@@ -53,16 +64,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-6);
 }
+
 .address-info:hover,
 .address-info:focus {
-  color: #404bbf;
+  color: var(--color-3);
 }
 
 /* Section 1  */
 .filter {
-  background-color: #2e2f42;
+  background-color: var(--color-2);
 }
 
 .list-filter-h1 {
@@ -70,7 +82,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-4);
 }
 
 .button-all {
@@ -79,13 +91,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--color-1);
+  background-color: var(--color-5);
 }
+
 .button-all:hover,
 .button-all:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color-4);
+  background-color: var(--color-3);
   cursor: pointer;
 }
 
@@ -98,33 +111,33 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-2);
 }
 
 .portfolio-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-6);
 }
 
 /*  Footer  */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--color-2);
 }
 
 .color-logo-header {
-  color: #f4f4fd;
+  color: var(--color-5);
 }
 
 .footer-poragrof {
   line-height: 1.5;
-  color: #f4f4fd;
+  color: var(--color-5);
   letter-spacing: 0.02em;
 }
 
 .section-one {
-  background-color: #2e2f42;
+  background-color: var(--color-2);
 }
 
 .section-one-h {
@@ -132,23 +145,23 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-4);
 }
 
 .button-section-one {
-  background-color: #4d5ae5;
+  background-color: var(--color-1);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--color-4);
   cursor: pointer;
 }
 
 .button-section-one:hover,
 .button-section-one:focus {
-  background-color: #404bbf;
+  background-color: var(--color-3);
 }
 
 .section-two {
@@ -156,13 +169,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-2);
 }
+
 .list-section-two-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-6);
 }
 
 .section-three-h {
@@ -171,21 +185,22 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-2);
 }
 
 .section-four {
-  background-color: #f4f4fd;
+  background-color: var(--color-5);
 }
+
 .section-four-h {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-2);
 }
 
 .list-section-four {
-  background-color: #ffffff;
+  background-color: var(--color-4);
 }
