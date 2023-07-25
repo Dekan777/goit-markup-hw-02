@@ -14,6 +14,8 @@ body {
   --section-color: #2E2F42;
   --primary-section-four: #F4F4FD;
   --button-color: #404bbf;
+  --button-section-one: #404BBF;
+  --button-section-one1: #404BBF;
 }
 /* header */
 /* Logo */
@@ -163,7 +165,9 @@ body {
 
 .button-section-one:hover,
 .button-section-one:focus {
-  background-color: var(--primary-blue-color);
+  background-color: var(--button-section-one);
+  color: var(--button-section-one1)
+
 }
 
 .section-two {
@@ -203,10 +207,5 @@ body {
 
 .list-section-four {
   background-color: var(--primary-wite-color);
-}
-
-.link address-info:hover,
-.link address-info:focus {
-  color: #404bbf;
 }
 
